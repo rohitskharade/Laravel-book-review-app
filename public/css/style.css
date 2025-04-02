@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --btn-bg-primary: #3a92f7;
+    --btn-border-primary: #3a92f7;
+    --btn-font-family: "Montserrat", sans-serif;
+    --body-font-family: "Lato", sans-serif;
+    --btn-bg-dark: #000;
+    --star-raing-color: #3a92f7;
+}
+
+body{
+    font-family: var(--body-font-family);
+}
+
+.header{
+    background-color: var(--btn-bg-primary);
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    justify-content: flex-start
+}
+
+.back-stars {
+    display: flex;
+    color: #ccc;
+    position: relative
+}
+
+.front-stars {
+    display: flex;
+    color: var(--star-raing-color);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transition: all .5s
+}
+
+.percent {
+    color: #bb5252;
+    font-size: 1.5em
+}
+.btn-primary{
+    font-family: var(--btn-font-family);
+    background-color: var(--btn-bg-primary);
+    border-color: var(--btn-border-primary);
+}
+.btn-primary:hover{
+    background-color: var(--btn-bg-dark);
+    border-color: var(--btn-bg-dark);
+}
+
+.heading{
+    font-size: 18px;
+    font-family: var(--body-font-family);
+    font-weight: 700;
+}
+
+.heading a{
+    font-size: 18px;
+    font-family: var(--body-font-family);
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.navigation a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sidebar .nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--btn-bg-dark);
+}
+
+.sidebar .nav li{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.sidebar .nav li:last-child{
+    border-bottom: none;
+}
+
+.card-header{
+    background-color: var(--btn-bg-primary);
+    font-size: 18px;
+}
+
+.content{
+    font-size: 16px;
+    font-family: var(--btn-font-family);
+    font-weight: 500;
+}

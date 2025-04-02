@@ -1,0 +1,10 @@
+1. Create a users table using artisan command
+2. Create AccountController and implemented the login, register, user authentication, Update profile 
+3. Create a book table and create Book controller
+4. Show the book list, details page, create book, edit book and delete book functionality using Book controller
+5. Create review table and create Home controller 
+6. Show the book list, detailse  in frontend using homecontroller
+7. Create review controller
+8. Show the reviews in backend and also edit, approve and delete the reviews from backend
+9. create middleware checkadmin for check the user admin or user
+10.Show star rating on frontend and backend
